@@ -2,9 +2,9 @@ import ProjectCard from "./ProjectCard";
 import { AiOutlineGithub } from "react-icons/ai";
 
 const projectdata = [{
-    "title": "AirBNB price predictor",
-    "desc": "Tested various regression models such as ridge, lasso, decision-tree to predict airbnb price prediction for a given user input consisting of listing options",
-    "url": "https://github.com/eshan-srivastava/dac-airbnb-project",
+    "title": "HelpDesk Tickets",
+    "desc": "NextJS 13 app that keeps track of help tickets raised to helpdesk. Leverages supabase’s auth functionality to provide user authentication with cookies and also as the database client for storing ticket information.",
+    "url": "https://github.com/eshan-srivastava/next-tickets",
 }, {
     "title": "Arrhythmia detector with blockchain storage",
     "desc": "Detected arrhythmia from ECG signal using CNN and storing arrhythmia heartbeats on a blockchain based secure storage (link to be added)",
@@ -22,7 +22,7 @@ const Projects = () => {
     return (
         <div id="projects">
             <h2 className="text-3xl pt-10">Projects</h2>
-            <div className="flex flex-col lg:flex-row">
+            <div className="flex flex-col lg:flex-row justify-center">
                 {/* replace this div with a project list component in future */}
                 <ProjectCard {...projectdata[0]} />
                 <ProjectCard {...projectdata[1]} />
