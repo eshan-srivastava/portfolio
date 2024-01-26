@@ -5,7 +5,7 @@ const Footer = () => {
                 Made with React + TailwindCSS + Typescript
                 <br /><i>by Eshan Srivastava</i>
             </p>
-            <nav className="p-4 md:w-1/2 mx-auto grid grid-flow-col">
+            <nav className="p-4 md:w-1/2 mx-auto grid grid-flow-col gap-8">
                 <a className="link link-hover" href="#about">About</a>
                 <a className="link link-hover" href="#experience">Experience</a>
                 <a className="link link-hover" href="#projects">Projects</a>

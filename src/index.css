@@ -38,3 +38,19 @@ h1 {
 .link:hover{
   color: rgb(139, 71, 187);
 }
+
+/* .animate-gradient{
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-name: grad;
+}
+
+@keyframes grad {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: 200% center;
+  }
+} */

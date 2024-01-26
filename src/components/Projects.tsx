@@ -22,7 +22,7 @@ const Projects = () => {
     return (
         <div id="projects">
             <h2 className="text-3xl pt-10">Projects</h2>
-            <div className="flex flex-col lg:flex-row justify-center">
+            <div className="flex flex-col lg:flex-row items-center justify-center">
                 {/* replace this div with a project list component in future */}
                 <ProjectCard {...projectdata[0]} />
                 <ProjectCard {...projectdata[1]} />
