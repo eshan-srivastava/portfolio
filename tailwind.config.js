@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'footer': "url('./src/assets/footer_bg.svg')",
+        'footer': "url('./footer_bg.svg')",
       },
       animation: {
         'gradient' : 'gradient 8s linear infinite',

@@ -30,10 +30,12 @@ const Projects = () => {
             </div>
             <div>
                 <p className="text-xl">Check out more of my work at</p>
-                <a href="https://github.com/eshan-srivastava"
-                    target="_blank" rel="noopener noreferrer">
-                    <AiOutlineGithub size={"4em"} className="mx-auto mt-3"/>
-                </a>
+                <div className="flex flex-row w-1/3 mx-auto justify-around">
+                    <a href="https://github.com/eshan-srivastava"
+                        target="_blank" rel="noopener noreferrer">
+                        <AiOutlineGithub size={"4em"} className="mx-auto mt-3" />
+                    </a>
+                </div>
             </div>
         </div>
     )
