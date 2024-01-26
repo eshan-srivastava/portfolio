@@ -31,7 +31,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="relative bg-fixed bg-cover bg-no-repeat lg:bg-center rounded-lg" style={{backgroundImage: `linear-gradient(to bottom, rgba(19, 17, 21, 0.3), rgba(19, 17, 21, 0.9)), url(/circle1.svg)`,}}>
+        <div className="relative bg-fixed bg-cover bg-no-repeat lg:bg-center rounded-lg pt-1" style={{backgroundImage: `linear-gradient(to bottom, rgba(19, 17, 21, 0.3), rgba(19, 17, 21, 0.9)), url(/circle1.svg)`,}}>
             <div className="flex flex-col mt-10 h-[45vh]" id="contact">
                 <h2 className="text-3xl">Contact Me</h2>
                 <form method="post" onSubmit={handleSubmit}
@@ -84,7 +84,7 @@ const Contact = () => {
                     </div>
                 </form>
             </div>
-            <div className="pb-6">
+            <div className="py-8">
                 <h2 className="text-2xl mb-4">Or Reach out to me via</h2>
                 <div className="flex flex-row w-1/3 mx-auto justify-around">
                     <a href="https://www.linkedin.com/in/eshan-srivastava-08a352247/" target="_blank" rel="noopener noreferrer">

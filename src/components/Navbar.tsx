@@ -15,12 +15,12 @@ function Navbar() {
     return (
         <header className='py-2 mx-auto md:w-full
         md:flex md:flex-row justify-around border-b border-b-zinc-700/80'>
-            <div className="md:mx-0 flex flex-row mb-2 justify-center">
+            <div className="md:mx-0 flex flex-row my-4 justify-center">
                 <button className="text-white bg-gradient-to-br from-purple-600 via-indigo-500 to-blue-500 
                 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80
                 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 
                 dark:focus:ring-blue-800 font-medium rounded-lg text-xl
-                px-5 py-2 mt-2 text-center md:mb-2"
+                px-5 py-2 text-center md:mb-2"
                     onClick={() => openLink(resumeUrl)}>
                     Resume
                 </button>
