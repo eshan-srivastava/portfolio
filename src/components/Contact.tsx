@@ -31,7 +31,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="relative bg-fixed bg-cover bg-no-repeat lg:bg-center rounded-lg pt-1" style={{backgroundImage: `linear-gradient(to bottom, rgba(19, 17, 21, 0.3), rgba(19, 17, 21, 0.9)), url(/circle1.svg)`,}}>
+        <div className="relative lg:bg-fixed bg-cover bg-no-repeat lg:bg-center rounded-lg pt-1" style={{backgroundImage: `linear-gradient(to bottom, rgba(19, 17, 21, 0.3), rgba(19, 17, 21, 0.9)), url(/circle1.svg)`,}}>
             <div className="flex flex-col mt-10 h-[45vh]" id="contact">
                 <h2 className="text-3xl">Contact Me</h2>
                 <form method="post" onSubmit={handleSubmit}
