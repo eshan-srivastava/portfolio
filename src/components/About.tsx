@@ -11,7 +11,7 @@ const About = () => {
         <div id="about" className="mt-5 bg-cover bg-origin-content md:bg-center bg-no-repeat w-5/6 lg:w-4/5 mx-auto rounded-3xl" 
             style={{backgroundImage: `linear-gradient(to top, rgba(19, 17, 21, 0.9), rgba(13, 17, 21, 0.5)), url(/blobscene.svg)`}}
         >
-            <div className="h-auto my-8 mx-10 lg:flex lg:flex-row lg:items-center lg:justify-evenly">
+            <div className="h-auto my-8 mx-auto lg:mx-10 flex flex-col items-center lg:flex-row lg:items-center lg:justify-evenly">
                 <div className="max-w-lg">
                     <h2 className="text-3xl pt-4">About Me</h2>
                     <p className="py-4 text-xl w-5/6 mx-auto text-justify lg:text-left leading-relaxed">

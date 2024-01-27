@@ -7,7 +7,7 @@ type ProjectCardProps = {
 //each projectcard component has -> title, button, desc
 const ProjectCard = ({ title, desc, url }: ProjectCardProps) => {
     return (
-        <div className="my-6 pb-4 pt-2 mx-14 w-5/6 lg:w-1/5 group relative">
+        <div className="my-6 pb-4 pt-2 mx-14 w-5/6 md:w-7/12 xl:w-1/5 group relative">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-10 group-hover:opacity-50"></div>
             <div className="relative h-full bg-neutral-900 rounded-lg border-2 border-cyan-500">
                 <h4 className="text-2xl font-medium py-3 w-3/4 mx-auto">{title}</h4>
